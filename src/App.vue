@@ -28,4 +28,10 @@ export default {
   margin: auto;
   font-size: 62.5%;
 }
+
+@media screen and (max-width: 1200px) {
+  #app {
+    width: 98%;
+  }
+}
 </style>

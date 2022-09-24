@@ -206,4 +206,10 @@ export default {
   font-size: 0.8rem;
   margin-top: 16px;
 }
+
+@media screen and (max-width: 739px) {
+  .login-wrap:first-child {
+    display: none;
+  }
+}
 </style>
